@@ -6,12 +6,13 @@ layout : layouts/base.njk
 							<section class="panel banner right">
 								<div class="content color0 span-3-75">
 									<h1 class="major">
-									 	<a href="{{ data.github }}">Eleventy Ethereal</a>
+									 	<a href="{{ data.github }}">{{ data.app_title }}</a>
 									 </h1>
 									<p>
-										Static Site prototyped on top of <a href="https://www.11ty.io/">Eleventy SSG</a> and Ethereal Html5Up Design.
-										<br />
-										<a href="{{ data.github }}">Source Code</a>
+										Esti din <strong>Bucuresti</strong> si ai nevoie de un website? 
+										Acest design modern iti va pune in valoare afacerea.
+										&nbsp; &bull; &nbsp;
+										<a href="{{ data.product }}">Comanda Site</a>
 									</p>
 									<ul class="actions">
 										<li><a href="#first" class="button primary color1 circle icon solid fa-angle-right">Next</a></li>
@@ -25,8 +26,13 @@ layout : layouts/base.njk
 						<!-- Panel (Spotlight) -->
 							<section class="panel spotlight medium right" id="first">
 								<div class="content span-7">
-									<h2 class="major">Sed etiam aenean</h2>
-									<p>Mauris et ligula arcu. Proin dapibus convallis accumsan. Lorem maximus hendrerit orci, sit amet elementum massa hendrerit sed. Donec et ullamcorper ligula. Suspendisse amet potenti. Ut pretium libero eleifend euismod sed tristique. Quisque dictum magna risus, id ultricies justo sagittis vitae. Sed id odio tempor, porttitor elit amet, gravida hendrerit fringilla lorem ipsum dolor.</p>
+									<h2 class="major">
+										Firma ta merita un site modern
+									</h2>
+									<p>
+										Bucurestiul a inregistrat o dezvoltare economica destul de puternica in ultimii ani.
+										Pentru a se dezvolta, orice firma, indiferent de domeniul de activitate are nevoie de o minima prezenta in mediul online.  
+									</p>
 								</div>
 								<div class="image filtered tinted" data-position="top left">
 									<img src="images/pic02.jpg" alt="" />
@@ -36,8 +42,15 @@ layout : layouts/base.njk
 						<!-- Panel -->
 							<section class="panel color1">
 								<div class="intro joined">
-									<h2 class="major">Amet lorem</h2>
-									<p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam.</p>
+									<h2 class="major">
+										Comunicare 
+									</h2>
+									<p>
+										Un site te va ajuta sa comunici cu potentialii clienti fara ca tu sa aloci resurse semnifcative. 
+										Un site actualizat va "vorbi" in locul tau, fara costuri si fara implicarea unei resurse umane. 
+										&nbsp; &bull; &nbsp;
+										<a href="{{ data.product }}">Comanda Site</a>
+									</p>
 								</div>
 								<div class="inner">
 									<ul class="grid-icons three connected">
@@ -54,8 +67,13 @@ layout : layouts/base.njk
 						<!-- Panel (Spotlight) -->
 							<section class="panel spotlight large left">
 								<div class="content span-5">
-									<h2 class="major">Magna amet tempus</h2>
-									<p>Mauris a cursus velit. Nunc lacinia sollicitudin egestas bibendum, magna dui bibendum ex, sagittis commodo enim risus sed magna nulla. Vestibulum ut consequat velit. Curabitur vitae libero lorem. Quisque iaculis porttitor blandit. Nullam quis sagittis maximus. Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar.</p>
+									<h2 class="major">
+										Cum te ajuta un site de prezentare
+									</h2>
+									<p>
+										Un site modern, iti va reprezenta compania 24/7 si va face primul pas spre o posibila colaborare. 
+										Acest model de site se incarca instant pe orice dispozitiv, are un design modern si este gandit sa aiba un impact vizual puternic.
+									</p>
 								</div>
 								<div class="image filtered tinted" data-position="top right">
 									<img src="images/pic03.jpg" alt="" />
@@ -65,8 +83,13 @@ layout : layouts/base.njk
 						<!-- Panel -->
 							<section class="panel">
 								<div class="intro color2">
-									<h2 class="major">Elit integer</h2>
-									<p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam.</p>
+									<h2 class="major">
+									Portofoliu
+									</h2>
+									<p>
+										In aceasta sectiune, viitorii tai clienti iti pot vizualiza protofoliul. 
+										Pentru a avea impact, se recomanda poze clare, facute in lumina naturala optimizate pentru utilizare web.
+									</p>
 								</div>
 								<div class="gallery">
 									<div class="group span-3">
@@ -89,14 +112,16 @@ layout : layouts/base.njk
 							<section class="panel color4-alt">
 								<div class="intro color4">
 									<h2 class="major">Contact</h2>
-									<p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam.</p>
+									<p>
+										Un formular de mail sau afisarea numarului tau de telefon, te va aduca mai aproape de viitorii tai clienti.
+									</p>
 								</div>
 								<div class="inner columns divided">
 									<div class="span-3-25">
 										<form method="post" action="#">
 											<div class="fields">
 												<div class="field half">
-													<label for="name">Name</label>
+													<label for="name">Nume</label>
 													<input type="text" name="name" id="name" />
 												</div>
 												<div class="field half">
@@ -104,28 +129,26 @@ layout : layouts/base.njk
 													<input type="email" name="email" id="email" />
 												</div>
 												<div class="field">
-													<label for="message">Message</label>
+													<label for="message">Mesaj</label>
 													<textarea name="message" id="message" rows="4"></textarea>
 												</div>
 											</div>
 											<ul class="actions">
-												<li><input type="submit" value="Send Message" class="button primary" /></li>
+												<li><input type="submit" value="Trimite Mesaj" class="button primary" /></li>
 											</ul>
 										</form>
 									</div>
 									<div class="span-1-5">
 										<ul class="contact-icons color1">
-											<li class="icon brands fa-twitter"><a href="#">@untitled-tld</a></li>
-											<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled</a></li>
-											<li class="icon brands fa-snapchat-ghost"><a href="#">@untitled-tld</a></li>
-											<li class="icon brands fa-instagram"><a href="#">@untitled-tld</a></li>
-											<li class="icon brands fa-medium-m"><a href="#">medium.com/untitled</a></li>
+											<li class="icon brands fa-twitter"><a href="{{ data.twitter }}">@websitemarketro</a></li>
+											<li class="icon brands fa-facebook-f"><a href="{{ data.facebook }}">Fbk/websitemarketro</a></li>
 										</ul>
 									</div>
 								</div>
 							</section>
 
-						<!-- Panel -->
+						<!-- Elements -->
+						<!-- 
 							<section class="panel color2-alt">
 								<div class="intro color2">
 									<h2 class="major">Elements</h2>
@@ -393,4 +416,4 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 									</div>
 								</div>
 							</section>
-
+							-->
